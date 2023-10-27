@@ -1,0 +1,22 @@
+.Banner-Courses-Background{
+    background: url("../../../../assets/background.webp");
+    width: 73%;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    margin-top: max(5%,1vw);
+    display: flex;
+    justify-content: center;
+    padding: max(12%,1vw)2% max(18%,18vw);
+    margin-bottom: max(5.5%,1vw);
+    margin-left: 8%;
+    h1{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      font-weight: bolder;
+      font-size: max(43px,3.1vw);
+    }
+}

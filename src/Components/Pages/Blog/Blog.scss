@@ -1,0 +1,176 @@
+.Blog-Page{
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    padding-top: max(1%,11vw);
+.Paniagtion-Blog{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 93%;
+    gap: max(8rem,5vw);
+    .articlesCard{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .img{
+            width: 55%;
+            .inner-img{
+                width: 80%;
+                position: relative;
+                height: 100%;
+                @media(max-width: 900px){
+                    width: 75%;
+                }
+            }
+            @media(max-width: 900px){
+                width: 79%;
+            }
+        }
+        .content{
+            width: 85%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: max(0.5rem, 1vw);
+            h1{
+                width: 70%;
+                font-size: max(19px,1.5vw);
+            @media(max-width: 457px){
+                width: 100%;
+            }
+            }
+            span{
+                font-size: max(16px,1vw);
+            }
+            .small-title{
+                font-size: max(19px,1.75vw);
+                font-weight: 600;
+            }
+            p{
+                font-size: max(15px, 1vw);
+            }
+            a{
+                display: flex;
+                justify-content: flex-start;
+                color: #000;
+                align-items: center;
+                gap: max(0.5rem, 0.4vw);
+                font-size: max(16px,1.3vw);
+            }
+
+        }
+        @media(max-width: 900px){
+            flex-direction: column;
+        }
+    }
+    .paginationBttns{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: max(3rem,3vw);
+        margin: max(2rem,2vw);
+        .previous{
+            font-size: max(20px,1.5vw);
+            cursor: pointer;
+        }
+        .next{
+            font-size: max(20px,1.5vw);
+            cursor: pointer;
+        }
+    }
+    @media(max-width: 457px){
+        width: 88%;
+    }
+}
+li{
+    font-size: max(16px,1vw);
+    cursor: pointer;
+}
+.paginationActive{
+    color: red;
+}
+@media(max-width: 670px){
+   padding-top:max(90px, 22vw);
+}
+.Footer{
+    margin-top: 338% ;
+    @media(max-width: 1030px){
+        margin-top: 371%;
+    }
+    @media(max-width: 901px){
+        margin-top: 760%;
+    }
+    @media(max-width: 854px){
+        margin-top: 770%;
+    }
+    @media(max-width: 836px){
+        margin-top: 775%;
+    }
+    @media(max-width: 791px){
+        margin-top: 791%;
+    }
+    @media(max-width: 750px){
+        margin-top: 830%;
+    }
+    @media(max-width: 709px){
+        margin-top: 850%;
+    }
+    @media(max-width: 661px){
+        margin-top: 892%;
+    }
+    @media(max-width: 627px){
+        margin-top: 915%;
+    }
+    @media(max-width: 590px){
+        margin-top: 952%;
+    }
+    @media(max-width: 557px){
+        margin-top: 984%;
+    }
+    @media(max-width: 538px){
+        margin-top: 1030%;
+    }
+    @media(max-width: 503px){
+        margin-top: 860%;
+    }
+    @media(max-width: 478px){
+        margin-top: 905%;
+    }
+    @media(max-width: 460px){
+        margin-top: 940%;
+    }
+    @media(max-width: 400px){
+        margin-top: 965%;
+    }
+    @media(max-width: 381px){
+        margin-top: 1005%;
+    }
+    @media(max-width: 364px){
+        margin-top: 1055%;
+    }
+    @media(max-width: 351px){
+        margin-top: 1080%;
+    }
+    @media(max-width: 344px){
+        margin-top: 1111%;
+    }
+    @media(max-width: 333px){
+        margin-top: 1146%;
+    }
+    @media(max-width: 316px){
+        margin-top: 1179%;
+    }
+    @media(max-width: 305px){
+        margin-top: 1195%;
+    }
+    @media(max-width: 300px){
+        margin-top: 1218%;
+    }
+}
+}
